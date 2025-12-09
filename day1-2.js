@@ -1,8 +1,6 @@
 import { readFileSync } from "node:fs";
 
-const rotations = readFileSync("./rotations.txt", "utf8")
-  .toString()
-  .split("\n");
+const rotations = readFileSync("./rotations.txt", "utf8").split("\n");
 
 let position = 50;
 let password = 0;
